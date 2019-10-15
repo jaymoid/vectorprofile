@@ -1,0 +1,17 @@
+name:          ch28exercises
+version:       0.1.0.0
+author:        James Pittendreigh
+maintainer:    james@pittendreigh.co.uk
+category:      Text
+build-type:    Simple
+cabal-version: >=2.0
+
+library
+  ghc-options:      -Wall -fwarn-tabs
+  build-depends:    base >= 4.7 && < 5
+                  , containers
+                  , criterion
+                  , vector
+                  , primitive
+  hs-source-dirs:   .
+  default-language: Haskell2010
